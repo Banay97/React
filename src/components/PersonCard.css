@@ -1,0 +1,58 @@
+.person-card {
+   
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    height: 160px;
+    transition: box-shadow 0.3s;
+    position: relative;
+    left: 40%;
+    margin-top: 45px;
+  }
+  
+  .person-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .person-card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 10%;
+  }
+  
+  .person-card p {
+    font-size: 16px;
+    margin: 5px 0;
+    padding-left: 10%;
+    font-weight: bold;
+  }
+  
+  .person-card button {
+    background-color: #5050b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+    position: relative;
+    left: 10%;
+    
+  }
+  
+  .person-card button:hover {
+    background-color: #9292da;
+  }
+  
+  .person-card input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    margin-top: 10px;
+  }
+  
